@@ -278,89 +278,6 @@ padding:60px;
         
 
 
-
-
-
-
-/* nav strat */
-/* *{
-    box-sizing: border-box;
-    margin: 0px;
-    padding: 0px;
-}
-
-.nav-container{
-   
-    min-height: 55px;
-    display: flex;
-    align-items: center;
-    max-width: 1400px;
-    margin: 0 auto;
-    background: #2ec2c7;
-    justify-content: space-between;
-  
-}
-.logo-container{
-   
-    display: flex;
-    justify-content: space-between;
-    width: 50%;
-}
-.logo-container img {
-   
-    width: 86.041px;
-    object-fit: cover;
-    margin-right: 20px;
-
-}
-.logo-container p{
-    font-size: 60px;
-  
-    width: 300px;
-}
-.nav-items-container{
-    
-    width: 30%;
-    display: flex;
-    justify-content:space-between ;
-
-    align-items: center;
-}
-
-
-.nav-items-container a{
-    text-decoration: none;
-    font-size: 35px;
-    color: aliceblue;
-}
-.nav-items-left{
-    gap: 25px;
-    display: flex;
-    justify-content:space-between ;
-}
-
-.nav-items-container .login-btn{
-    background-color: palevioletred;
-    padding: 10px 20px;
-    font-weight: 700;
-    border-radius: 5px;
-    text-align: center;
-} */
-
-
-
-
-/* nav end */
-
-
-
-
-
-
-
-
-
-
 /* main styles */
 
 main{
@@ -540,13 +457,76 @@ line-height: 30px;
     color: aliceblue;
 }
 
+/* footer section start */
+footer{
+
+    background: #111010;
+    height: auto;
+    width: 100%;
+    color: #FFF;
+
+}
+.footer{
+    width: auto;
+    height: 536px;
+    background: #0B0223;
+    background: #ffff;
+    text-align: center;
+    align-items: center;
+}
+.footer-container{
+
+    width: 86.041px;
+height: 40px;
+}
 
 
 
+.footer-row{
+    align-items: center;
+}
 
 
+footer{
 
+    background: #111010;
+    height: auto;
+    width: 100%;
+    color: #FFF;
+    font-family: 'Lato';
 
+}
+.footer-content{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 40px 0px;
 
+}
+.footer-content h3{
+    font-size: 45px;
+    font-weight: 800;
+    padding-top: 30px;
+    color:#FFFFFF;
+}
+.footer-content .flower {
+    color:#E55473 ;
+}
+
+.footer-content p{
+    max-width: 400px;
+    margin: 10px auto;
+    line-height: 26px;
+    font-size: 13px;
+    color: #FFF;
+    text-align: center;
+
+}
+
+.footer-content .copyright {
+    font-size: 10px;
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+}
 
 
