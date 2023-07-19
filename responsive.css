@@ -1,4 +1,54 @@
-@media screen and (max-width:1000px) {
+/* responsive media queries*/
+
+@media screen and (max-width:576px) {
+    header{
+        padding: 20px;
+    
+    }
+    nav{
+        flex-direction: column;
+    }
+
+}
+@media screen and (max-width:425px) {
+    header{
+        padding: 20px;
+    
+    }
+    nav,  .teams-container {
+        flex-direction: column;
+    }
+    .teams-img-container{
+        grid-template-columns: 1fr ;
+    }
+
+}
+
+/* Medium devices */
+
+@media screen and (max-width:576px) and (max-width:960px) {
+    header{
+        padding: 20px;
+    
+    }
+    nav{
+        flex-direction: column;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* @media screen and (max-width:1000px) {
     .nav-container{
         flex-direction: column;
     
@@ -40,6 +90,6 @@
 .fa-brands{
     font-size: 30px;
 }
-}
+} */
 
 
