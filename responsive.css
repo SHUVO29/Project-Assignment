@@ -1,0 +1,106 @@
+/* responsive media queries*/
+
+
+@media screen and (max-width:800px){
+
+
+    .game-section-top{  
+        grid-template-columns: repeat(2,1fr);
+  
+    }
+}
+
+
+
+@media screen and (max-width:576px) {
+    header{
+        padding: 20px;
+    
+    }
+    nav,
+    .game-menu,
+    .game-section-top,
+    .features,
+    .teams-container
+    {
+        flex-direction: column;
+    }
+    .ten-years-badge{
+        position: static;
+        max-width: 300px;
+    }
+    .teams-img-container {
+        grid-template-columns: 1fr;
+    }
+    .feature-img img{
+        width: 90%;
+        margin-left: 0;
+    }
+
+
+}
+@media screen and (max-width:425px) {
+    header{
+        padding: 20px;
+    
+    }
+    nav,  .teams-container {
+        flex-direction: column;
+    }
+    .teams-img-container{
+        grid-template-columns: 1fr ;
+    }
+
+}
+
+/* Medium devices */
+
+@media screen and (max-width:576px) and (max-width:960px) {
+    header{
+        padding: 20px;
+    
+    }
+    nav, .teams-container {
+        flex-direction: column;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* @media screen and (max-width:1000px) {
+    .nav-container{
+        flex-direction: column;
+    
+    }
+
+@media screen and (max-width:700px) {
+    .grid-container{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+
+.nav-items-container{
+    flex-direction: column;
+    width: 100%;
+}
+.nav-items-container a{
+    margin-top:  20px;
+}
+.nav-items-container .login-btn{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+/*
+/* } */
